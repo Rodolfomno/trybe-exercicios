@@ -1,2 +1,1 @@
-# trybe-exercicios
-Exercícios do curso Trybe
+TESTE PRA VER SE VAI NÉ XD 
