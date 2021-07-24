@@ -1,0 +1,28 @@
+.amarelo{
+    background-color: yellow;
+}
+.azul{
+    background-color: blue;
+}
+.vermelho{
+    background-color: red;
+}
+.marrom{
+    background-color: brown;
+}
+.font-size{
+    font-family: sans-serif;
+    font-size: 65px;
+    color: orange;
+}
+
+.font-w {
+    font-weight: 600;
+}
+body {
+    font-size: 16px;
+    font-style:italic;
+    text-align: center;
+p {
+    font-size: 3em;
+}
