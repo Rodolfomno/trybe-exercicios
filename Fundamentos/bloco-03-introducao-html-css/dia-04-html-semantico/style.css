@@ -1,0 +1,70 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(189, 189, 189);
+}
+
+header {
+    background-color: green;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-bottom: 20px;
+}
+
+nav {
+    color: rgb(194, 194, 194);
+    max-width: 33.33%;
+    background-color: green;
+    text-align: center;
+    display: inline-block;
+    min-width: 33%;
+    margin-left: 1px;
+    margin-bottom: 10px;
+}
+
+nav:hover{
+    background-color: blue;
+}
+
+
+main {
+    font-size: 120%;
+    margin-left: 10px;
+    float: left;
+    max-width: 50%;
+    padding-bottom: 10px;
+}
+
+span{
+    color: blue;
+}
+
+img{
+    float:right;
+}
+
+h2{
+    text-align: center;
+    clear: both;
+    padding-top: 15px;
+}
+
+article{
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+ul li{
+    margin: 15px;
+    text-align: left;
+}
+
+#ref{
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+}
