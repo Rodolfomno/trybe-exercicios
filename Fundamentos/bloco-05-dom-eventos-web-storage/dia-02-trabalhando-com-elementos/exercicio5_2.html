@@ -59,7 +59,7 @@
     <script>
       // COLOQUE SEU CÓDIGO AQUI
       // ex 1
-      const h1 = document.createElement("h2");
+      const h1 = document.createElement("h1");
       h1.innerText = "Exercício 5.2 - JavaScript DOM";
       document.body.appendChild(h1);
       //ex 2
@@ -94,9 +94,15 @@
         let li = document.createElement("li");
         li.innerHTML = values[index];
         elementUl.appendChild(li);
- 
-      }
 
+      }
+      //ex 9
+      for (let index = 1; index <=3; index += 1){
+        let h3 = document.createElement('h3');
+        main.append(h3);
+      }
+      // pt 2 ex 1
+      h1.className = "title";
     </script>
   </body>
 </html>
