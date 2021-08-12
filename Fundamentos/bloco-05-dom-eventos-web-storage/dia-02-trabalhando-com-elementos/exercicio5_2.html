@@ -83,9 +83,19 @@
       main.appendChild(sectionR);
       //ex 7
       const img = document.createElement("img");
-      img.className = 'small-image';
+      img.className = 'small-image  ';
       img.src = 'https://picsum.photos/200';
       sectionL.appendChild(img);
+      //ex 8
+      const elementUl = document.createElement('ul');
+      sectionR.appendChild(elementUl);
+      const values = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      for(let index in values){
+        let li = document.createElement("li");
+        li.innerHTML = values[index];
+        elementUl.appendChild(li);
+ 
+      }
 
     </script>
   </body>
