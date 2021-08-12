@@ -58,13 +58,20 @@
   <body>
     <script>
       // COLOQUE SEU CÓDIGO AQUI
-      let h1 = document.createElement("h2");
+      // ex 1
+      const h1 = document.createElement("h2");
       h1.innerText = "Exercício 5.2 - JavaScript DOM";
       document.body.appendChild(h1);
-      //
-      let main = document.createElement("main");
+      //ex 2
+      const main = document.createElement("main");
       main.classList.add("main-element");
       document.body.appendChild(main);
+      //ex 3
+      const section = document.createElement("section");
+      main.classList.add(".center-content");
+      main.appendChild(section);
+      //
+
     </script>
   </body>
 </html>
