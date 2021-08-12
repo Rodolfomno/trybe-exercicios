@@ -68,9 +68,19 @@
       document.body.appendChild(main);
       //ex 3
       const section = document.createElement("section");
-      main.classList.add(".center-content");
+      section.classList.add(".center-content");
       main.appendChild(section);
-      //
+      //ex 4
+      const pTag = document.createElement("p");
+      section.appendChild(pTag);
+      //ex 5
+      const sectionL = document.createElement("section");
+      sectionL.classList.add(".left-content");
+      main.appendChild(sectionL);
+      //ex 6
+      const sectionR = document.createElement("section");
+      sectionR.classList.add(".right-content");
+      main.appendChild(sectionR);
 
     </script>
   </body>
