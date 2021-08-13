@@ -97,12 +97,22 @@
 
       }
       //ex 9
+      let h3 = document.createElement('h3');
       for (let index = 1; index <=3; index += 1){
-        let h3 = document.createElement('h3');
+        h3 = document.createElement('h3');
         main.append(h3);
       }
       // pt 2 ex 1
       h1.className = "title";
+      // ex 2
+      h3.classList.add('description')
+      // ex 3
+      main.removeChild(sectionL);
+      // ex 4
+      main.removeChild(sectionR);
+      // ex 5
+      section.style.backgroundColor = 'green';
+      // ex 6
     </script>
   </body>
 </html>
