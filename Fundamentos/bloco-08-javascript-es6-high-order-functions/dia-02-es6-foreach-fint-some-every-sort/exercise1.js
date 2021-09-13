@@ -102,4 +102,10 @@ function smallerName() {
     
 assert.deepStrictEqual(getNamedBook(), expectedResult);
 
+function booksOrderedByReleaseYearDesc() {
+  return books.sort((bookA, bookB) => bookB.releaseYear - bookA.releaseYear);
+}
+
+assert.deepStrictEqual(booksOrderedByReleaseYearDesc(), expectedResult);
+
   
